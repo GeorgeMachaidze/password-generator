@@ -17,6 +17,9 @@ h1{
   padding: 16px;
   background-color: #24232C;
   border: 0;
+  font-size: 24px;
+  width: 144px;
+  font-family: JetBrains Mono;
 }
 .textInput:focus{
   border: 0;

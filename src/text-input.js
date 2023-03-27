@@ -11,7 +11,7 @@ function TextInput(){
       
       <div>
       <input
-      className='textInput'
+        className='textInput'
         type="text"
         id="textInput"
         name="textInput"
