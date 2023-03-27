@@ -3,6 +3,10 @@ import './App.css';
 import React, { useState } from 'react';
 import RangeInput from './range-input';
 import TextInput from './text-input';
+import ChecxboxForUpperCase from './check-box-for-upper-case';
+import ChecxboxForLowerCase from './check-box-for-lower-case';
+import ChecxboxForNumbers from './check-box-for-number';
+import ChecxboxForSymbols from './check-box-for-symbols';
 
 
 function App() {
@@ -18,6 +22,12 @@ function App() {
         <div className='mainBox'>
           <div className='firstSection'>
         <RangeInput/>
+          </div>
+          <div className='checkBoxes'>
+            <ChecxboxForUpperCase/>
+            <ChecxboxForLowerCase/>
+            <ChecxboxForNumbers/>
+            <ChecxboxForSymbols/>
           </div>
         </div>
     </div>
