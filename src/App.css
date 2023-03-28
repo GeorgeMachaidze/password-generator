@@ -34,6 +34,7 @@ padding: 16px;
   flex-direction: column;
   background-color: rgba(36, 35, 44, 1);
   margin: 16px;
+  margin-bottom: 63px;
 }
 .inputDiv{
   width: 100%;
@@ -141,4 +142,43 @@ button p{
 }
 button svg{
   margin-left: 16px;
+}
+@media screen and (min-width: 768px){
+h1{
+  margin-top: 133px;
+}
+.passwordBox{
+  margin-left: 114px;
+  margin-right: 114px;
+}
+.passwordBox p{
+  padding-left: 32px;
+}
+.copyIcon{
+  padding-right: 28px;
+}
+.mainBox{
+  margin-left: 114px;
+  margin-right: 114px;
+  margin-bottom: 198px;
+}
+.inputDiv{
+  width: 100%;
+  padding: 32px;
+}
+.checkBoxes{
+  padding: 32px;
+}
+.secondSection{
+  margin:32px;
+  margin-top: 0;
+}
+button{
+  Width:476px;
+  Height:65px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 0;
+}
+
 }
