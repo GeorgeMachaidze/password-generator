@@ -86,7 +86,6 @@ input[type="checkbox"] {
   outline: none;
   transition: background-color 0.2s;
 }
-
 input[type="checkbox"]:checked {
   background-color: rgba(164, 255, 175, 1)
 }
@@ -96,4 +95,36 @@ input[type="checkbox"]:checked {
   font-size: 16px;
   line-height: 21px;
   
+}
+.secondSection{
+  margin-top: 32px;
+  background-color: rgba(24, 23, 31, 1);
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+.secondSection p{
+  padding: 17px;
+  font-size: 16px;
+  color: rgba(129, 125, 146, 1);
+}
+.lvlDiv{
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+}
+.lvlDiv p{
+  color: rgba(230, 229, 234, 1);
+}
+.rec{
+  width: 10px;
+  height: 28px;
+  border: 1px solid white;
+}
+.rectangels{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-self: center;
 }

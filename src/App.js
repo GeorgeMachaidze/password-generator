@@ -29,6 +29,18 @@ function App() {
             <ChecxboxForNumbers/>
             <ChecxboxForSymbols/>
           </div>
+          <div className='secondSection'>
+            <p>STRENGTH</p>
+            <div className='lvlDiv'>
+                <p className='lvl'></p>
+                <div className='rectangels'>
+                  <div className='firstRec rec'></div>
+                  <div className='secondRec rec'></div>
+                  <div className='thirdRec rec'></div>
+                  <div className='fourthRec rec'></div>
+                </div>
+            </div>
+          </div>
         </div>
     </div>
   );
