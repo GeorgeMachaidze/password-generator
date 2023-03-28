@@ -12,7 +12,7 @@ h1{
   align-items: center;
   margin: 16px;
 }
-.textInput{
+.passwordBox p{
   color: rgba(230, 229, 234, 0.25);
   padding: 16px;
   background-color: #24232C;
@@ -75,19 +75,14 @@ input[type="range"]::-webkit-slider-thumb {
 .checkBox{
   display: flex;
   flex-direction: row;
-  padding-top: 16px;
+  margin-bottom: 16px;
 }
-input[type="checkbox"] {
-  -webkit-appearance: none;
+.cube{
   width: 20px;
   height: 20px;
-  background-color: rgba(36, 35, 44, 1);
-  border: 2px solid #ccc;
-  outline: none;
-  transition: background-color 0.2s;
-}
-input[type="checkbox"]:checked {
-  background-color: rgba(164, 255, 175, 1)
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
 }
 .checkBox p{
   margin-left: 20px;
@@ -127,4 +122,23 @@ input[type="checkbox"]:checked {
   flex-direction: row;
   gap: 8px;
   align-self: center;
+}
+button{
+  Width:311px;
+  Height:56px;
+  margin: 16px;
+  background-color: rgba(164, 255, 175, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ justify-content: center;
+}
+button p{
+  color: rgba(36, 35, 44, 1);
+  font-size: 16px;
+  font-style: JetBrains Mono;
+  font-weight: 700;
+}
+button svg{
+  margin-left: 16px;
 }
