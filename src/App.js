@@ -24,15 +24,39 @@ function App() {
   }
   function toggleUpperCase(){
     setUpperCase(!upperCase);
+    upperCaseLetter();
   }
   function toggleLowerCase(){
     setLowerCase(!lowerCase);
+    lowerCaseLetter();
   }
   function toggleNumbers(){
     setNumbers(!numbers);
+    getRandomNumber();
   }
   function toggleSymbols(){
     setSymbols(!symbols);
+    getRandomSymbol();
+  }
+
+  function upperCaseLetter(){
+    let charCode = Math.floor(Math.random() * (65 - 90 + 1)) + 90;
+    let UpperCaseLetter = String.fromCharCode(charCode);
+    return console.log(UpperCaseLetter);
+  }
+  function lowerCaseLetter() {
+    let charCode = Math.floor(Math.random() * (122 - 97 + 1)) + 97;
+    let lowerCaseLetter = String.fromCharCode(charCode);
+    return console.log(lowerCaseLetter);
+  }
+  function getRandomNumber(){
+    let randomNumber = Math.floor(Math.random() * 10);
+    return console.log(randomNumber);
+  }
+  function getRandomSymbol() {
+    const symbols = "!@#$%^&*(){}[]=<>/,.";
+    let generetedSymbols = symbols[Math.floor(Math.random() * symbols.length)];
+    return console.log(generetedSymbols)
   }
 
   return (
@@ -123,14 +147,14 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="button">
+       
           <button>
             <p>GENERATE</p>
             <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg"><path fill="#24232C" d="m5.106 12 6-6-6-6-1.265 1.265 3.841 3.84H.001v1.79h7.681l-3.841 3.84z"/></svg>
           </button>
         </div>
       </div>
-    </div>
+    
   );
 }
 
