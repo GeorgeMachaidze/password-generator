@@ -18,12 +18,19 @@ h1{
   background-color: #24232C;
   border: 0;
   font-size: 24px;
-  width: 144px;
+  width: auto;
   font-family: JetBrains Mono;
 }
-.textInput:focus{
-  border: 0;
-  outline: none;
+.copy{
+  display: flex;
+}
+.copy p{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  align-self: center;
+  color: rgba(164, 255, 175, 1);
+  font-size: 18px;
 }
 .copyIcon{
 scale: 0.9;
